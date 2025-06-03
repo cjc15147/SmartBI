@@ -383,7 +383,7 @@ async def generate_audit_summary(audit_results: List[Dict[str, Any]], ai_service
     try:
         # 初始化OpenAI客户端
         client = OpenAI(
-            api_key="sk-102013fc35e6407e81aa9b5dfa05ff4c",
+            api_key="sk-yourkey",
             base_url="https://api.deepseek.com/v1"
         )
 
